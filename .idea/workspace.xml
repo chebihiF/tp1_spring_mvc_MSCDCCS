@@ -9,8 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="787fda49-dd2d-4747-bea8-200d0483b144" name="Changes" comment="add hibernate dependecies">
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Person.java" afterDir="false" />
+    <list default="true" id="787fda49-dd2d-4747-bea8-200d0483b144" name="Changes" comment="add xml configuration file">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674310098825</updated>
-      <workItem from="1674310101538" duration="6589000" />
+      <workItem from="1674310101538" duration="7457000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1674311182108</created>
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674319323203</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add xml configuration file">
+      <created>1674319994690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674319994690</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +211,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="add hibernate dependecies" />
-    <option name="LAST_COMMIT_MESSAGE" value="add hibernate dependecies" />
+    <MESSAGE value="add xml configuration file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add xml configuration file" />
   </component>
 </project>
