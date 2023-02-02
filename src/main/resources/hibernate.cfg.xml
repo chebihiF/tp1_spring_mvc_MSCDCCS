@@ -6,7 +6,7 @@
   <session-factory>
     <!-- datasource -->
     <property name="connection.url">
-      jdbc:mysql://localhost:3306/cigma_tp1_spring_mvc?serverTimezone=UTC
+      jdbc:mysql://localhost:3306/cigma_tp1_spring_mvc_MSCDCCS?serverTimezone=UTC
     </property>
     <property name="connection.driver_class">
       com.mysql.cj.jdbc.Driver
