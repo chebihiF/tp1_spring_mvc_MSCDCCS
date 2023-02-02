@@ -9,12 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="787fda49-dd2d-4747-bea8-200d0483b144" name="Changes" comment="final version 21/01/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/PersonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/PersonDaoImpl.java" afterDir="false" />
+    <list default="true" id="787fda49-dd2d-4747-bea8-200d0483b144" name="Changes" comment="add dao layer">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/metier/PersonMetier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/metier/PersonMetierImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/web/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/application-context.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +30,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -59,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Workspace/2022-2023/Cigma M1 JavaEE/FiliereDB/tp1_spring_mvc",
+    "last_opened_file_path": "D:/Workspace/2022-2023/Cigma M1 JavaEE/tp0_javaee",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,6 +76,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="metier" />
       <recent name="dao" />
     </key>
   </component>
@@ -192,7 +198,7 @@
       <updated>1674310098825</updated>
       <workItem from="1674310101538" duration="9090000" />
       <workItem from="1674578455928" duration="22000" />
-      <workItem from="1675362186882" duration="3378000" />
+      <workItem from="1675362186882" duration="5615000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1674311182108</created>
@@ -236,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674322287634</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add dao layer">
+      <created>1675365640194</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675365640194</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +273,7 @@
     <MESSAGE value="add xml configuration file" />
     <MESSAGE value="final version xml configuration file" />
     <MESSAGE value="final version 21/01/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="final version 21/01/2023" />
+    <MESSAGE value="add dao layer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dao layer" />
   </component>
 </project>

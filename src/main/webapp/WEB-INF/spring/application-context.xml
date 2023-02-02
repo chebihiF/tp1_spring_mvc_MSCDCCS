@@ -12,7 +12,12 @@
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="suffix" value=".jsp"/>
-        <property name="prefix" value="WEB-INF/views/" />
+        <property name="prefix" value="/WEB-INF/views/" />
+    </bean>
+
+    <bean id="personDao" class="dao.PersonDaoImpl" />
+    <bean id="personMetier" class="metier.PersonMetierImpl">
+        <property name="dao" ref="personDao" />
     </bean>
 
 </beans>
